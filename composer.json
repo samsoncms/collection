@@ -1,6 +1,6 @@
 {
-  "name": "samsonos/cms_api",
-  "description": "SamsonCMS API module",
+  "name": "samsoncms/collection",
+  "description": "SamsonCMS collection module",
   "authors": [
     {
       "name": "Vitaly Iegorov",
@@ -14,7 +14,7 @@
   "minimum-stability": "dev",
   "require": {
     "samsonframework/collection": "*",
-    "samsonos/php_activerecord": "*",
+    "samsonframework/orm": "*"
     "samsonos/php_pager": "*"
   },
   "require-dev": {
@@ -25,9 +25,8 @@
   "autoload": {
     "classmap": ["src/"],
     "psr-4": {
-      "samsoncms\\api\\": "src/"
-    },
-    "files": ["src/global.php"]
+      "samsoncms\\collection\\": "src/"
+    }
   },
   "config":{
     "github-protocols":["https"]
