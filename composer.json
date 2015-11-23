@@ -14,7 +14,7 @@
   "minimum-stability": "dev",
   "require": {
     "samsonframework/collection": "*",
-    "samsonframework/orm": "*"
+    "samsonframework/orm": "*",
     "samsonos/php_pager": "*"
   },
   "require-dev": {
@@ -23,12 +23,16 @@
   "license": "Open Software License (OSL) v 3.0",
   "homepage": "http://samsonos.com/",
   "autoload": {
-    "classmap": ["src/"],
+    "classmap": [
+      "src/"
+    ],
     "psr-4": {
       "samsoncms\\collection\\": "src/"
     }
   },
-  "config":{
-    "github-protocols":["https"]
+  "config": {
+    "github-protocols": [
+      "https"
+    ]
   }
 }
